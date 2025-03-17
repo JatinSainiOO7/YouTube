@@ -1,54 +1,87 @@
-# React + TypeScript + Vite
+# YouTube Clone 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **YouTube Clone** website built as a learning project. The goal is to practice building modern web applications using key frontend technologies.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse videos (static or API-based)
+- Video playback functionality
+- Responsive UI (mobile & desktop)
+- Video categories / sidebar navigation
+- Search functionality
+- Recommended videos sidebar
+- Video details page
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- JavaScript (or TypeScript if applicable)
+- CSS / SCSS / Tailwind (specify what you used)
+- Axios / Fetch API (for API calls if used)
+- YouTube Data API (optional if implemented)
+- React Router (for routing between pages)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📚 Learning Objectives
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Practice component-based architecture with React
+- Improve responsive web design skills
+- Work with REST APIs (optional)
+- Enhance routing and navigation using React Router
+- Strengthen CSS / SCSS / Tailwind utility-first styling
+- Understand video embedding and media playback on the web
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💻 Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Prerequisites
+
+- Node.js & npm installed
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/youtube-clone.git
+   cd youtube-clone
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Start the development server:
+   ```bash
+   npm run dev
+
+4. Start the development server:
+   ```bash
+   npm run dev
+
+5. Open your browser at:
+   ```bash
+   http://localhost:3000
+
+## 📂 Folder Structure (example)
+ 
+ <code>
+ <pre>
+  /src
+    /components
+    /pages
+    /assets
+    /styles
+    /api
+  </pre>
+ </code> 
+
+## 📝 Notes   
+- This is a learning project and is not intended for production use.
+- Some functionality may be static or simplified to focus on frontend skills.
+
+## 📌 Future Improvements (optional)
+
+- Implement real-time comments section
+- Add user authentication & upload feature
+- Optimize for better performance
+- Dark mode toggle
+
+## 🔗 Live Demo
+* in development
